@@ -23,11 +23,14 @@ public class Assignment_1FB_Login {
 		
 		Thread.sleep(10000);
 		
+		driver.switchTo().alert().dismiss();
+		
+		
 		driver.findElement(By.xpath("//*[aria-label ='your profile']")).click();
 		
 		
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("")).click();
+		driver.findElement(By.xpath(" ")).click();
 		
 		
 		
